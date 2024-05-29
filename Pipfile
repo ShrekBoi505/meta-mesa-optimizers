@@ -1,0 +1,15 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+numpy = "*"
+pandas = "*"
+matplotlib = "*"
+torch = {file = "file:///C:/Users/jonco/Downloads/torch-2.0.1%2Bcu118-cp311-cp311-win_amd64.whl"}
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
